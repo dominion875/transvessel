@@ -1,0 +1,92 @@
+pics for hero-section slider
+heroSec---4, 5, 9, 21, 28, 30
+sec----1, 2, 4, 9, 11, 14, 17, 18, 19, 22, 23, 24,
+blursec-----11, 17, 18, 19, 21, 23, 26
+blurhero------5, 10, 27, 
+
+🛻🚚🚛🚈🚅🚄🚝🚉🚊🚇🚇
+✈️🛫🛬
+🛥️🛳️⛴️🚢
+🎁✉️📩📨📧📃📄📑🧾📊📈📉
+🗾🗺️🌏🌍🌎👷🏼‍♀️🦺👷🏼👷🏼‍♂️👥👤
+
+.sec5-imgDiv {
+    width: 150%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* grid-template-columns: repeat(6, 25%); */
+    overflow: scroll;
+    gap: 3ch;
+    margin-top: 3ch;
+    /* scroll-snap-type: x mandatory; */
+    /* scroll-snap-type: mandatory;
+    scroll-behavior: smooth; */
+}
+
+.sec5-imgDiv::-webkit-scrollbar {
+    width: 0;
+}
+
+.sec5-card {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    /* flex: 0 0 auto;
+    scroll-snap-align: start; */
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.sec5-card img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1ch;
+    height: 50vh;
+}
+
+.sec5-text { 
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 3ch;
+    padding-left: 5ch;
+    border-radius: 1ch;
+    position: absolute;
+    color: white;
+    height: 50vh;
+    background: linear-gradient(to top, #1F3042, transparent);
+    /* z-index: 1; */
+    transition: 0.5s ease-in;
+}
+
+.sec5-text h1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: #ff7700;
+    padding: 0.2ch 0ch;
+    font-weight: 500;
+    font-size: 1.8ch;
+    border-radius: 5ch;
+    letter-spacing: 0.8px;
+    transition: 0.5s ease-in;
+}
+
+.sec5-text p {
+    font-size: 2.5ch;
+}
+
+.sec5-card:hover .sec5-text {
+    transition: 0.5s ease-in;
+    background: linear-gradient(to top, #ff7700, transparent);
+}
+
+.sec5-card:hover .sec5-text h1 {
+    color: #1F3042;
+    background-color: #fff;
+}
