@@ -4,8 +4,8 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
-    /* user-select: none;
-    -moz-user-select: none; */
+    -moz-user-select: none;
+    user-select: none;
 }
 
 html {
@@ -28,7 +28,6 @@ header {
 }
 
 .clBcg {
-    /* background-color: rgb(255, 106, 0); */
     background-color: #ff7700;
     height: 0.5vh;
 }
@@ -39,7 +38,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* background-color: #23374C; */
     background-color: #1F3042;
 }
 
@@ -47,22 +45,23 @@ header {
     display: flex;
     align-items: center;
     color: white;
-    font-size: 4ch;
+    font-size: 3.5ch;
+    width: 80%;
 }
 
 .navBar span {
     color: #ff7700;
 }
 
-nav {
+.navLink {
     width: 50%;
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
 }
 
-nav a {
+.navLink a {
     width: 10%;
     height: 10vh;
     display: flex;
@@ -80,8 +79,65 @@ nav a {
     color: #ff7700;
 }
 
-.navBar button {
-    width: 10%;
+.toggle {
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.toggle i {
+    cursor: pointer;
+    color: white;
+    font-size: 3ch;
+}
+
+#navMenu {
+    list-style: none;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    position: fixed;
+    background: whitesmoke;
+    backdrop-filter: blur(5px);
+}
+
+#navMenu li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3ch;
+}
+
+#close-menu {
+    color: black;
+    top: 0;
+    position: absolute;
+}
+
+#navMenu li a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5ch;
+    color: black;
+    text-decoration: none;
+}
+
+#navMenu li a:hover {
+    background-color: #ff7700;
+    color: white;
+}
+
+#navMenu button {
+    display: none;
+    justify-content: center;
+    /* width: 80%; */
     margin: 2ch;
     color: white;
     background-color: #ff7700;
@@ -89,6 +145,10 @@ nav a {
     border-radius: 1ch;
     cursor: pointer;
     font-size: 1.5ch;
+}
+
+.navBar button {
+    display: none;
 }
 
 .heroSection {
@@ -140,7 +200,7 @@ nav a {
 }
 
 .content h1 {
-    font-size: 6ch;
+    font-size: 4ch;
 }
 
 .content span {
@@ -157,11 +217,11 @@ nav a {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 3ch;
+    font-size: 2ch;
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
     border: none;
-    padding: 10px 15px;
+    padding: 5px 10px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -1096,6 +1156,7 @@ nav a {
 
 .footer-icons i:hover {
     color: #ff7700;
+    cursor: pointer;
 }
 
 .sec10-links {
@@ -1116,6 +1177,7 @@ nav a {
 
 .sec10-links a:hover {
     color: #ff7700;
+    cursor: pointer;
 }
 
 .sec10-links b {

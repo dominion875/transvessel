@@ -39,3 +39,21 @@ setInterval(() => {
     index = (index + 1) % slides.length;
     showSlide(index);
 }, 6000);
+
+// const icon = document.getElementById("menuIcon");
+// const menu = document.getElementById("navMenu");
+//     icon.addEventListener("click", () => {
+//         menu.classList.toggle("active");
+//         icon.classList.toggle("bi-list");
+//         icon.classList.toggle("bi-x-lg");
+// })
+
+function addMenu() {
+    const disp = document.getElementById("navMenu");
+    disp.style.display = "flex"
+}
+
+function removeMenu() {
+    const clos = document.getElementById("navMenu");
+    clos.style.display = "none"
+}

@@ -13,10 +13,10 @@
     <div class="container">
         <header>
             <div class="clBcg"></div>
-            <div class="head1"></div>
+            <!-- <div class="head1"></div> -->
             <div class="navBar">
                 <h1>Trans<span>Vessel</span></h1>
-                <nav>
+                <nav class="navLink">
                     <a href="" class="nav1">HOME</a>
                     <a href="">About</a>
                     <a href="">Services</a>
@@ -25,6 +25,21 @@
                     <a href="">Contact Us</a>
                 </nav>
                 <button type="submit">GET A QUOTE</button>
+                <nav class="toggle">
+                    <i class="bi bi-list" id="menuIcon" onclick="addMenu()"></i>
+                    <ul id="navMenu">
+                        <i class="bi bi-x-lg" id="close-menu" onclick="removeMenu()"></i>
+                        <li>
+                            <a href="./index.html">Home</a>
+                            <a href="./html/about.html">About Us</a>
+                            <a href="./html/blog.html">Blog</a>
+                            <a href="./html/team.html">Team</a>
+                            <a href="./html/services.html">Services</a>
+                            <a href="./html/contact.html">Contact</a>
+                            <button type="submit">GET A QUOTE</button>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <div class="heroSection">
@@ -34,14 +49,14 @@
                     <img src="./img/sec24.jpg" alt="Slide 1">
                     <div class="content">
                         <h1>Welcome To Trans<span>Vessel</span> <br>Transport Services</h1>
-                        <p>Join our unique journey of growing your business to the next level <br>with TransVessel business management strategies.</p>
+                        <p>Join our unique journey of growing your business to the next level with TransVessel business management strategies.</p>
                     </div>
                 </div>
 
                 <div class="slide">
                     <img src="./img/sec4.jpg" alt="Slide 2">
                     <div class="content">
-                        <h1>A World Of <span>Possibilities</span> For <br>Your Business Growth</h1>
+                        <h1>A World Of <span>Possibilities</span> For Your Business Growth</h1>
                         <p>Building a fundation for your business.</p>
                     </div>
                 </div>
