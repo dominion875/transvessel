@@ -160,7 +160,7 @@ header {
 .slider-container {
     /* opacity: 0.5; */
     position: relative;
-    height: 90vh;
+    height: 80vh;
     background-color: #3A4A5B;
 }
 
@@ -185,7 +185,7 @@ header {
 
 .content {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -200,7 +200,7 @@ header {
 }
 
 .content h1 {
-    font-size: 3.5ch;
+    font-size: 4ch;
 }
 
 .content span {
@@ -232,11 +232,11 @@ header {
 }
 
 .prev {
-    left: 20px;
+    left: 5px;
 }
 
 .next {
-    right: 20px;
+    right: 5px;
 }
 
 /* Indicators */
