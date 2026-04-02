@@ -525,7 +525,7 @@ header {
 }
 
 .section4-text {
-    width: 80%;
+    width: 90%;
     text-align: center;
     font-size: 1.6ch;
 }
@@ -538,7 +538,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 5ch;
-    background-image: url(../img/sec18.jpg);
+    background-image: url(../img/sec27.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -562,6 +562,7 @@ header {
 }
 
 .maritime-Bcg p {
+    width: 80%;
     transition: 0.5s ease-in;
     color: white;
     margin-top: 2ch;
@@ -601,6 +602,7 @@ header {
 }
 
 .land-Bcg p {
+    width: 80%;
     transition: 0.5s ease-in;
     color: white;
     margin-top: 2ch;
@@ -640,6 +642,7 @@ header {
 }
 
 .train-Bcg p {
+    width: 80%;
     transition: 0.5s ease-in;
     color: white;
     margin-top: 2ch;
@@ -676,6 +679,7 @@ header {
 }
 
 .air-Bcg p {
+    width: 80%;
     transition: 0.5s ease-in;
     color: white;
     margin-top: 2ch;
@@ -710,7 +714,7 @@ header {
 
 .blurButt {
     transition: 1s ease-in;
-    margin-top: 1ch;
+    margin-top: 2ch;
     clip-path: circle(50% at 50% 50%);
     padding: 0.5ch 1.3ch;
     color: white;
