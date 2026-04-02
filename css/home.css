@@ -752,7 +752,7 @@ header {
     position: relative;
     overflow-x: auto;
     width: 100%;
-    height: 80vh;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(6, 60%);
     gap: 8ch;
@@ -874,7 +874,7 @@ header {
 
 .section7 {
     width: 100%;
-    height: 90vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -891,15 +891,14 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 3ch;
 }
 
 .sec7-first {
     width: 100%;
-    margin-top: 5ch;
 }
 
 .sec7-first label {
-    margin-bottom: 2ch;
     background-color: #ff7700;
     color: #fff;
     padding: 5px 2ch 5px 2ch;
@@ -909,18 +908,18 @@ header {
 }
 
 .sec7-first h1 {
+    margin-top: 1ch;
     font-size: 3ch;
 }
 
 .sec7-first p {
-    font-size: 2ch;
+    font-size: 1.8ch;
 }
 
 .sec7-snd {
     width: 100%;
     position: relative;
     margin-top: 2ch;
-    /* left: 20ch; */
 }
 
 .sec7-subSnd {
@@ -929,7 +928,7 @@ header {
 }
 
 .subSnd1 {
-    width: 40ch;
+    width: 38ch;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1014,6 +1013,7 @@ header {
 }
 
 .section8 p {
+    width: 90%;
     text-align: center;
     font-size: 1.6ch;
 }
@@ -1089,7 +1089,7 @@ header {
 }
 
 .sec8-blog2 h1 {
-    font-size: 2.5ch;
+    font-size: 2.3ch;
 }
 
 .sec8-blog2 p {
@@ -1102,7 +1102,7 @@ header {
 .sec8-blog2 a {
     color: black;
     text-decoration: none;
-    font-size: 2ch;
+    font-size: 1.8ch;
     font-weight: 500;
     margin-bottom: 3ch;
 }
