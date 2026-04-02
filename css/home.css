@@ -189,6 +189,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -200,6 +201,7 @@ header {
 }
 
 .content h1 {
+    margin-top: -3ch;
     font-size: 4ch;
 }
 
@@ -208,15 +210,18 @@ header {
 }
 
 .content p {
-    font-size: 1.5ch;
+    text-align: center;
+    font-size: 2ch;
+    width: 80%;
 }
 
 /* Navigation Arrows */
 .prev,
 .next {
+    /* height: 100vh; */
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(0%);
     font-size: 2ch;
     color: #fff;
     background: rgba(0, 0, 0, 0.5);
