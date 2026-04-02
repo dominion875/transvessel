@@ -383,7 +383,7 @@ header {
 }
 
 .step1-text p {
-    font-size: 1.8ch;
+    font-size: 1.6ch;
 }
 
 .step1-img {
@@ -429,7 +429,7 @@ header {
 }
 
 .step2-text p {
-    font-size: 1.8ch;
+    font-size: 1.6ch;
 }
 
 .step3-sec {
@@ -462,7 +462,7 @@ header {
 }
 
 .step3-text p {
-    font-size: 1.8ch;
+    font-size: 1.6ch;
 }
 
 .section3 {
@@ -519,20 +519,20 @@ header {
 
 .section4 h1{
     font-weight: 500;
-    font-size: 3.5ch;
+    font-size: 2.5ch;
 }
 
 .section4-text {
-    width: 50%;
+    width: 100%;
     text-align: center;
-    font-size: 1.8ch;
+    font-size: 1.6ch;
 }
 
 .sec4-blurBcg {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(1, 100%);
     justify-content: center;
     align-items: center;
     margin-top: 5ch;
@@ -544,7 +544,8 @@ header {
 
 .maritime-Bcg {
     /* background-color: #3a4a5bab; */
-    border-right: 1px solid white;
+    /* border-right: 1px solid white; */
+    border-bottom: 1px solid white;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -580,7 +581,8 @@ header {
 
 .land-Bcg {
     /* background-color: #3a4a5bab; */
-    border-right: 1px solid white;
+    /* border-right: 1px solid white; */
+    border-bottom: 1px solid white;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -616,7 +618,8 @@ header {
 
 .train-Bcg {
     /* background-color: #3a4a5bab; */
-    border-right: 1px solid white;
+    /* border-right: 1px solid white; */
+    border-bottom: 1px solid white;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -710,10 +713,11 @@ header {
     width: 100%;
     height: auto;
     margin: auto;
-    padding-left: 20ch;
+    /* padding-left: 20ch; */
 }
 
 .section5 label {
+    margin-left: 2ch;
     background-color: #1F3042;
     color: white;
     padding: 5px 2ch 5px 2ch;
@@ -723,8 +727,9 @@ header {
 }
 
 .section5 h1 {
+    margin-left: 2ch;
     font-weight: 500;
-    font-size: 3.5ch;
+    font-size: 2.5ch;
     padding-top: 1ch;
     padding-bottom: 1.8ch;
 }
@@ -733,10 +738,11 @@ header {
     position: relative;
     overflow-x: auto;
     width: 100%;
-    height: 55vh;
+    height: 80vh;
     display: grid;
-    grid-template-columns: repeat(6, 20%);
-    gap: 5ch;
+    grid-template-columns: repeat(6, 80%);
+    gap: 3ch;
+    margin-left: 2ch;
     /* border: 2px solid red; */
 }
 
@@ -746,12 +752,12 @@ header {
 
 .sec5-card {
     width: auto;
-    height: 40vh;
+    height: 60vh;
 }
 
 .sec5-card img {
-    max-width: 35ch;
-    height: 50vh;
+    max-width: 30ch;
+    height: 60vh;
     object-fit: cover;
     border-radius: 1ch;
 }
@@ -760,12 +766,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 35ch;
-    height: 50vh;
+    width: 30ch;
+    height: 61vh;
     color: #fff;
     padding-left: 4ch;
     padding-bottom: 3ch;
-    top: -42.2ch;
+    top: -36.5ch;
     border-radius: 1ch;
     position: relative;
     text-align: left;
@@ -776,7 +782,7 @@ header {
     width: 13ch;
     display: flex;
     justify-content: center;
-    font-size: 1.8ch;
+    font-size: 1.6ch;
     font-weight: 500;
     background-color: #ff7700;
     padding: 3px;
@@ -794,7 +800,7 @@ header {
     background-color: #fff;
     color: #1F3042;
     border: none;
-    font-size: 3ch;
+    font-size: 2.5ch;
     padding: 1ch;
     font-weight: 600;
     transition: 0.5s ease-in-out;
@@ -817,7 +823,7 @@ header {
 }
 
 .sec5-text p {
-    font-size: 2.5ch;
+    font-size: 2ch;
 }
 
 .sec5-text:hover .sec5-arrow {
@@ -852,7 +858,7 @@ header {
 
 .section7 {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -864,28 +870,30 @@ header {
 }
 
 .sec7 {
-    width: 75%;
+    width: 90%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .sec7-first {
-    width: 50%;
+    width: 100%;
+    margin-top: 5ch;
 }
 
 .sec7-first label {
+    margin-bottom: 2ch;
     background-color: #ff7700;
     color: #fff;
     padding: 5px 2ch 5px 2ch;
     border-radius: 3ch;
-    font-size: 1.8ch;
+    font-size: 1.6ch;
     font-weight: 500;
 }
 
 .sec7-first h1 {
-    font-size: 4ch;
+    font-size: 3ch;
 }
 
 .sec7-first p {
@@ -893,9 +901,10 @@ header {
 }
 
 .sec7-snd {
-    width: 50%;
+    width: 100%;
     position: relative;
-    left: 20ch;
+    margin-top: 2ch;
+    /* left: 20ch; */
 }
 
 .sec7-subSnd {
@@ -904,7 +913,7 @@ header {
 }
 
 .subSnd1 {
-    width: 60ch;
+    width: 40ch;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -954,6 +963,7 @@ header {
     width: 25ch;
     padding: 2ch;
     border: 3px dotted rgb(0, 192, 192);
+    display: none;
 }
 
 .sec7-dots div {
@@ -977,19 +987,19 @@ header {
     color: #fff;
     padding: 5px 2ch 5px 2ch;
     border-radius: 3ch;
-    font-size: 1.8ch;
+    font-size: 1.6ch;
     font-weight: 500;
 }
 
 .section8 h1 {
     margin: 5px;
     font-weight: 500;
-    font-size: 3.5ch;
+    font-size: 2.5ch;
 }
 
 .section8 p {
     text-align: center;
-    font-size: 1.8ch;
+    font-size: 1.6ch;
 }
 
 .sec8 {
@@ -998,7 +1008,7 @@ header {
     display: grid;
     justify-content: center;
     gap: 3ch;
-    grid-template-columns: repeat(3, 25%);
+    grid-template-columns: repeat(1, 90%);
 }
 
 .sec8-div {
@@ -1026,7 +1036,7 @@ header {
 
 .sec8-blog1 {
     width: 100%;
-    height: 10vh;
+    height: auto;
     display: flex;
     border-bottom: 1px solid black;
     flex-direction: row;
@@ -1036,13 +1046,12 @@ header {
 
 .sec8-blogImg {
     width: 20%;
-    /* height: 20vh; */
     object-fit: cover;
     clip-path: circle(35% at 50% 50%);
 }
 
 .sec8-blog1 h1 {
-    font-size: 2.8ch;
+    font-size: 2.5ch;
 }
 
 .sec8-blog1 label {
@@ -1060,7 +1069,7 @@ header {
     flex-direction: column;
     justify-content: center;
     margin: 2ch;
-    margin-left: 10ch;
+    margin-left: 5ch;
 }
 
 .sec8-blog2 h1 {
@@ -1069,7 +1078,7 @@ header {
 
 .sec8-blog2 p {
     text-align: left;
-    font-size: 1.9ch;
+    font-size: 1.8ch;
     margin-top: 1.5ch;
     margin-bottom: 1.5ch;
 }
