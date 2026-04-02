@@ -751,7 +751,7 @@ header {
     height: 80vh;
     display: grid;
     grid-template-columns: repeat(6, 80%);
-    gap: 3ch;
+    gap: 8ch;
     margin-left: 2ch;
     /* border: 2px solid red; */
 }
@@ -766,8 +766,8 @@ header {
 }
 
 .sec5-card img {
-    max-width: 30ch;
-    height: 60vh;
+    max-width: 40ch;
+    height: 45vh;
     object-fit: cover;
     border-radius: 1ch;
 }
@@ -776,10 +776,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 30ch;
+    width: 40ch;
     height: 61vh;
     top: -50%;
-    left: 41%;
+    left: 55%;
     transform: translate(-50%, -50%);
     color: #fff;
     padding-left: 4ch;
