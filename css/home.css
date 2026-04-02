@@ -766,7 +766,7 @@ header {
 }
 
 .sec5-card img {
-    max-width: 40ch;
+    max-width: 30ch;
     height: 45vh;
     object-fit: cover;
     border-radius: 1ch;
@@ -776,15 +776,14 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 40ch;
-    height: 61vh;
-    top: -50%;
-    left: 55%;
-    transform: translate(-50%, -50%);
+    width: 30ch;
+    height: 45vh;
+    /* top: -50%;
+    left: 41%; */
+    transform: translate(0%, -100%);
     color: #fff;
     padding-left: 4ch;
     padding-bottom: 3ch;
-    /* top: -36.5ch; */
     border-radius: 1ch;
     position: relative;
     text-align: left;
@@ -806,7 +805,7 @@ header {
 .sec5-arrow {
     opacity: 0;
     position: absolute;
-    top: 1ch;
+    top: 0;
     right: 1ch;
     width: 5ch;
     clip-path: circle(35% at 50% 50%);
