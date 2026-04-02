@@ -354,23 +354,28 @@ header {
     border-radius: 3ch;
     font-weight: 500;
     font-size: 1.8ch;
+    margin-bottom: 1ch;
 }
 
 .section2 h1{
     font-weight: 500;
-    font-size: 3.5ch;
+    font-size: 2.5ch;
+}
+
+.step-sec {
+    margin-top: 2ch;
 }
 
 .step1-sec {
-    width: 90%;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .step1-text {
-    width: 80%;
+    width: 100%;
 }
 
 .step1-text h3{
@@ -382,38 +387,41 @@ header {
 }
 
 .step1-img {
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex;
+    justify-content: flex-end; */
 }
 
 .step1-img img{
-    width: 50%;
+    margin-top: 2ch;
+    width: 90%;
     border-radius: 8px;
     box-shadow: 5px 5px 10px #ff7700;
 }
 
 .step2-sec {
-    width: 90%;
+    margin-top: 2ch;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
 }
 
 .step2-img {
-    width: 80%;
-    display: flex;
-    justify-content: flex-start;
+    width: 100%;
+    /* display: flex;
+    justify-content: flex-start; */
 }
 
 .step2-img img {
-    width: 50%;
+    width: 90%;
+    margin-top: 2ch;
     border-radius: 8px;
     box-shadow: 5px 5px 10px #ff7700;
 }
 
 .step2-text {
-    width: 50%;
+    width: 100%;
 }
 
 .step2-text h3{
@@ -425,28 +433,27 @@ header {
 }
 
 .step3-sec {
-    width: 90%;
+    margin-top: 2ch;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .step3-img {
-    width: 80%;
-    display: flex;
-    justify-content: flex-end;
-    /* background-color: rebeccapurple; */
+    width: 100%;
+    margin-top: 2ch;
 }
 
 .step3-img img{
-    width: 50%;
+    width: 90%;
     border-radius: 8px;
     box-shadow: 5px 5px 10px #ff7700;
 }
 
 .step3-text {
-    width: 50%;
+    width: 100%;
     /* background-color: red; */
 }
 
@@ -461,21 +468,24 @@ header {
 .section3 {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 20%);
+    grid-template-columns: repeat(1, 100%);
     justify-content: center;
     align-items: center;
+    padding-top: 5ch;
 }
 
 .counter {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: #1F3042;
     color: #fff;
+    padding-bottom: 5ch;
 }
 
-.counter span {
-    font-size: 5ch;
+.counter img {
+    width: 7ch;
 }
 
 .counter h1 {
