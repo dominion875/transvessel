@@ -202,7 +202,7 @@ header {
 
 .content h1 {
     margin-top: -3ch;
-    font-size: 4ch;
+    font-size: 4.5ch;
 }
 
 .content span {
@@ -211,7 +211,7 @@ header {
 
 .content p {
     text-align: center;
-    font-size: 2ch;
+    font-size: 1.8ch;
     width: 80%;
 }
 
