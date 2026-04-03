@@ -41,15 +41,16 @@ header {
     background-color: #1F3042;
 }
 
-.navBar h1 {
+.navBar a{
+    text-decoration: none;
     display: flex;
     align-items: center;
     color: white;
-    font-size: 3.5ch;
+    font-size: 1.8ch;
     width: 80%;
 }
 
-.navBar span {
+.navBar h1 span {
     color: #ff7700;
 }
 
