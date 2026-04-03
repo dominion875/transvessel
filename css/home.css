@@ -726,8 +726,10 @@ header {
 .section5 {
     width: 100%;
     height: auto;
-    margin: auto;
-    /* padding-left: 20ch; */
+    overflow: hidden;
+    padding-top: 1ch;
+    margin-right: 3ch;
+    padding-right: 3ch;
 }
 
 .section5 label {
@@ -757,7 +759,6 @@ header {
     grid-template-columns: repeat(6, 60%);
     gap: 8ch;
     margin-left: 2ch;
-    /* border: 2px solid red; */
 }
 
 .sec5-div::-webkit-scrollbar {
@@ -782,8 +783,6 @@ header {
     justify-content: flex-end;
     width: 30ch;
     height: 45vh;
-    /* top: -50%;
-    left: 41%; */
     transform: translate(0%, -100%);
     color: #fff;
     padding-left: 4ch;
@@ -1114,6 +1113,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 .section9 label {
@@ -1126,19 +1126,38 @@ header {
 }
 
 .sec9-div {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: 5ch;
-    gap: 8ch;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(6, 20%);
+    gap: 2ch;
     margin-top: 2ch;
     overflow-x: auto;
     position: relative;
 }
 
 .sec9-div img {
-    width: 20%;
+    /* animation: scroll 0.5s linear infinite; */
+}
+
+.sec9-div::-webkit-scrollbar {
+    width: 0;
+}
+
+.section9:hover .sec9-div img {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-80%);
+    }
+}
+
+.sec9-div img {
+    width: 8ch;
     object-fit: contain;
     filter: grayscale(100%);
 }
@@ -1173,14 +1192,13 @@ header {
 }
 
 .sec10-li {
-    width: 90%;
+    width: 100%;
     justify-content: space-evenly;
 }
 
 .sec10-li h2 {
-    margin-bottom: -2ch;
     letter-spacing: 0.5px;
-    font-size: 3.5ch;
+    font-size: 3ch;
     font-weight: 500;
 }
 
@@ -1190,7 +1208,7 @@ header {
 
 .footer-text {
     text-align: justify;
-    font-size: 2.3ch;
+    font-size: 2ch;
     font-weight: 360;
 }
 
@@ -1236,14 +1254,14 @@ header {
     font-weight: 500;
 }
 
-.section10 p {
+.copyright {
     width: 100%;
     justify-content: center;
     display: flex;
     margin-top: 5ch;
-    font-size: 2ch;
+    font-size: 1.5ch;
 }
 
-.section10 p b {
+.copyright b {
     font-weight: 700;
 }
