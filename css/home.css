@@ -124,16 +124,29 @@ header {
 #navMenu li a {
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
     font-size: 2.5ch;
-    color: black;
     text-decoration: none;
 }
 
-#navMenu li a:hover {
+#navMenu li i {
+    font-size: 2ch;
+    padding-right: 3px;
+}
+
+.navMenu1 {
     padding: 5px;
     background-color: #ff7700;
     color: white;
+}
+
+.navMenu2, .navMenu3, .navMenu4, .navMenu5, .navMenu6 {
+    color: black;
+}
+
+.navMenu2 i, .navMenu3 i, .navMenu4 i, .navMenu5 i, .navMenu6 i {
+    color: black;
 }
 
 #navMenu button {
@@ -540,7 +553,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 5ch;
-    background-image: url(../img/bcg3.jpg);
+    background-image: url(../img/bcg1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
