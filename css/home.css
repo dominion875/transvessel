@@ -547,8 +547,6 @@ header {
 }
 
 .maritime-Bcg {
-    /* background-color: #3a4a5bab; */
-    /* border-right: 1px solid white; */
     border-bottom: 1px solid white;
     height: auto;
     display: flex;
@@ -587,8 +585,6 @@ header {
 }
 
 .land-Bcg {
-    /* background-color: #3a4a5bab; */
-    /* border-right: 1px solid white; */
     border-bottom: 1px solid white;
     height: auto;
     display: flex;
@@ -627,8 +623,6 @@ header {
 }
 
 .train-Bcg {
-    /* background-color: #3a4a5bab; */
-    /* border-right: 1px solid white; */
     border-bottom: 1px solid white;
     height: auto;
     display: flex;
@@ -757,7 +751,7 @@ header {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(6, 65%);
+    grid-template-columns: repeat(6, 70%);
     gap: 8ch;
 }
 
