@@ -116,7 +116,8 @@ header {
 
 #close-menu {
     color: black;
-    top: 0;
+    top: 2ch;
+    right: 4ch;
     position: absolute;
 }
 
@@ -130,6 +131,7 @@ header {
 }
 
 #navMenu li a:hover {
+    padding: 5px;
     background-color: #ff7700;
     color: white;
 }
@@ -393,7 +395,7 @@ header {
 
 .step1-img img{
     margin-top: 2ch;
-    width: 90%;
+    width: 100%;
     border-radius: 8px;
     box-shadow: 5px 5px 10px #ff7700;
 }
@@ -414,7 +416,7 @@ header {
 }
 
 .step2-img img {
-    width: 90%;
+    width: 100%;
     margin-top: 2ch;
     border-radius: 8px;
     box-shadow: 5px 5px 10px #ff7700;
@@ -447,7 +449,7 @@ header {
 }
 
 .step3-img img{
-    width: 90%;
+    width: 100%;
     border-radius: 8px;
     box-shadow: 5px 5px 10px #ff7700;
 }
@@ -538,7 +540,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 5ch;
-    background-image: url(../img/sec27.jpg);
+    background-image: url(../img/bcg3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -728,12 +730,12 @@ header {
     height: auto;
     overflow: hidden;
     padding-top: 1ch;
-    margin-right: 3ch;
+    padding-left: 4ch;
     padding-right: 3ch;
+    /* background-color: red; */
 }
 
 .section5 label {
-    margin-left: 2ch;
     background-color: #1F3042;
     color: white;
     padding: 5px 2ch 5px 2ch;
@@ -743,7 +745,6 @@ header {
 }
 
 .section5 h1 {
-    margin-left: 2ch;
     font-weight: 500;
     font-size: 2.5ch;
     padding-top: 1ch;
@@ -756,9 +757,8 @@ header {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(6, 60%);
+    grid-template-columns: repeat(6, 65%);
     gap: 8ch;
-    margin-left: 2ch;
 }
 
 .sec5-div::-webkit-scrollbar {
@@ -1208,7 +1208,7 @@ header {
 
 .footer-text {
     text-align: justify;
-    font-size: 2ch;
+    font-size: 1.8ch;
     font-weight: 360;
 }
 
