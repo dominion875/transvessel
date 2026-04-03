@@ -41,7 +41,7 @@ header {
     background-color: #1F3042;
 }
 
-.navBar a{
+.brand-logo{
     text-decoration: none;
     display: flex;
     align-items: center;
