@@ -560,17 +560,13 @@ header {
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
     font-size: 2.1ch;
-    margin-left: 2.4ch;
-    margin-right: 2.4ch;
 }
 
 .section4-text {
     font-family: "Open Sans", sans-serif;
-    /* width: 85%; */
+    width: 90%;
     text-align: center;
     font-size: 1.6ch;
-    margin-left: 2.5ch;
-    margin-right: 2.5ch;
 }
 
 .sec4-blurBcg {
