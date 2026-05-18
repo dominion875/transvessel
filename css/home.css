@@ -217,13 +217,12 @@ header {
     text-align: center;
     background: rgba(0, 0, 0, 0.4);
     color: #fff;
-    /* padding: 20px 40px; */
 }
 
 .content h1 {
     font-family: "Open Sans", sans-serif;
     margin-top: -3.5ch;
-    font-size: 4.5ch;
+    font-size: 3.6ch;
     /* font-weight: 600; */
 }
 
@@ -233,7 +232,8 @@ header {
 
 .content p {
     text-align: center;
-    font-size: 1.8ch;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.7ch;
     width: 80%;
 }
 
