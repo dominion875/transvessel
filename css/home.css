@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
     -moz-user-select: none;
     user-select: none;
 }
@@ -43,10 +45,11 @@ header {
 
 .brand-logo{
     text-decoration: none;
+    font-family: "Google Sans", sans-serif;
     display: flex;
     align-items: center;
     color: white;
-    font-size: 1.7ch;
+    font-size: 1.5ch;
     width: 80%;
 }
 
@@ -118,7 +121,7 @@ header {
 #close-menu {
     color: black;
     top: 2ch;
-    right: 4ch;
+    right: 2ch;
     position: absolute;
 }
 
@@ -127,6 +130,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Google Sans", sans-serif;
     font-size: 2.5ch;
     text-decoration: none;
 }
@@ -217,8 +221,10 @@ header {
 }
 
 .content h1 {
-    margin-top: -3ch;
+    font-family: "Open Sans", sans-serif;
+    margin-top: -3.5ch;
     font-size: 4.5ch;
+    /* font-weight: 600; */
 }
 
 .content span {
@@ -313,12 +319,14 @@ header {
     color: white;
     font-weight: 500;
     font-size: 2ch;
+    font-family: "Google Sans", sans-serif;
 }
 
 .section1 h1{
+    font-family: "Open Sans", sans-serif;
     font-size: 2.5ch;
     font-weight: 500;
-    margin-top: 1ch;
+    margin-top: 0.5ch;
     margin-bottom: 2ch;
 }
 
@@ -344,11 +352,13 @@ header {
 }
 
 .section1-tradeCh1 h3{
+    font-family: "Google Sans", sans-serif;
     font-size: 2.3ch;
     font-weight: 500;
 }
 
 .section1-tradeCh1 p{
+    font-family: "Open Sans", sans-serif;
     font-size: 1.6ch;
 }
 
@@ -370,10 +380,12 @@ header {
     border-radius: 3ch;
     font-weight: 500;
     font-size: 1.8ch;
+    font-family: "Google Sans", sans-serif;
     margin-bottom: 1ch;
 }
 
 .section2 h1{
+    font-family: "Open Sans", sans-serif;
     font-weight: 500;
     font-size: 2.5ch;
 }
@@ -395,11 +407,13 @@ header {
 }
 
 .step1-text h3{
-    font-weight: 500;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
 }
 
 .step1-text p {
     font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
 }
 
 .step1-img {
@@ -411,7 +425,7 @@ header {
     margin-top: 2ch;
     width: 100%;
     border-radius: 8px;
-    box-shadow: 5px 5px 10px #ff7700;
+    /* box-shadow: 5px 5px 10px #ff7700; */
 }
 
 .step2-sec {
@@ -433,7 +447,7 @@ header {
     width: 100%;
     margin-top: 2ch;
     border-radius: 8px;
-    box-shadow: 5px 5px 10px #ff7700;
+    /* box-shadow: 5px 5px 10px #ff7700; */
 }
 
 .step2-text {
@@ -465,7 +479,7 @@ header {
 .step3-img img{
     width: 100%;
     border-radius: 8px;
-    box-shadow: 5px 5px 10px #ff7700;
+    /* box-shadow: 5px 5px 10px #ff7700; */
 }
 
 .step3-text {
@@ -502,11 +516,11 @@ header {
 }
 
 .counter img {
-    width: 7ch;
+    width: 6ch;
 }
 
 .counter h1 {
-    font-size: 5ch;
+    font-size: 4ch;
 }
 
 .counter p {
@@ -532,18 +546,24 @@ header {
     margin-bottom: 1ch;
     padding: 5px 2ch 5px 2ch;
     font-weight: 500;
+    font-family: "Google Sans", sans-serif;
     font-size: 1.8ch;
 }
 
-.section4 h1{
+.section4-h1{
     font-weight: 500;
     font-size: 2.5ch;
+    margin-left: 2.4ch;
+    margin-right: 2.4ch;
 }
 
 .section4-text {
-    width: 90%;
+    font-family: "Open Sans", sans-serif;
+    /* width: 85%; */
     text-align: center;
     font-size: 1.6ch;
+    margin-left: 5ch;
+    margin-right: 5ch;
 }
 
 .sec4-blurBcg {
@@ -561,7 +581,8 @@ header {
 }
 
 .maritime-Bcg {
-    border-bottom: 1px solid white;
+    background-color: #3a4a5b9a;
+    /* border-bottom: 2px solid black; */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -581,8 +602,9 @@ header {
     color: white;
     margin-top: 2ch;
     font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
     transform: translateX(-150%);
-    margin-bottom: -15ch;
+    margin-bottom: -13ch;
 }
 
 .maritime-Bcg:hover {
@@ -599,7 +621,8 @@ header {
 }
 
 .land-Bcg {
-    border-bottom: 1px solid white;
+    background-color: #3a4a5b9a;
+    /* border-bottom: 1px solid white; */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -619,8 +642,9 @@ header {
     color: white;
     margin-top: 2ch;
     font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
     transform: translateX(-150%);
-    margin-bottom: -15ch;
+    margin-bottom: -13ch;
 }
 
 .land-Bcg:hover {
@@ -637,7 +661,8 @@ header {
 }
 
 .train-Bcg {
-    border-bottom: 1px solid white;
+    background-color: #3a4a5b9a;
+    /* border-bottom: 1px solid white; */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -657,8 +682,9 @@ header {
     color: white;
     margin-top: 2ch;
     font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
     transform: translateX(-150%);
-    margin-bottom: -15ch;
+    margin-bottom: -11ch;
 }
 
 .train-Bcg:hover {
@@ -675,6 +701,7 @@ header {
 }
 
 .air-Bcg {
+    background-color: #3a4a5b9a;
     transition: 1s ease-in;
     height: auto;
     display: flex;
@@ -694,8 +721,9 @@ header {
     color: white;
     margin-top: 2ch;
     font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
     transform: translateX(-150%);
-    margin-bottom: -15ch;
+    margin-bottom: -11ch;
 }
 
 .air-Bcg:hover {
@@ -712,11 +740,13 @@ header {
 }
 
 .sec4-blurBcg h1 {
+    font-family: "Google Sans", sans-serif;
     font-size: 4ch;
     color: #ff7700;
 }
 
 .sec4-blurBcg h3 {
+    font-family: "Google Sans", sans-serif;
     font-size: 2.5ch;
     font-weight: 400;
     color: white;
@@ -739,7 +769,6 @@ header {
     overflow: hidden;
     padding-top: 1ch;
     padding-left: 4ch;
-    padding-right: 3ch;
     /* background-color: red; */
 }
 
@@ -749,12 +778,14 @@ header {
     padding: 5px 2ch 5px 2ch;
     border-radius: 3ch;
     font-weight: 500;
+    font-family: "Google Sans", sans-serif;
     font-size: 1.8ch;
 }
 
 .section5 h1 {
     font-weight: 500;
     font-size: 2.5ch;
+    font-family: "Google Sans", sans-serif;
     padding-top: 1ch;
     padding-bottom: 1.8ch;
 }
@@ -806,6 +837,7 @@ header {
     display: flex;
     justify-content: center;
     font-size: 1.6ch;
+    font-family: "Google Sans", sans-serif;
     font-weight: 500;
     background-color: #ff7700;
     padding: 3px;
@@ -846,6 +878,7 @@ header {
 }
 
 .sec5-text p {
+    font-family: "Open Sans", sans-serif;
     font-size: 2ch;
 }
 
@@ -912,15 +945,18 @@ header {
     border-radius: 3ch;
     font-size: 1.6ch;
     font-weight: 500;
+    font-family: "Google Sans", sans-serif;
 }
 
 .sec7-first h1 {
     margin-top: 1ch;
     font-size: 3ch;
+    font-family: "Google Sans", sans-serif;
 }
 
 .sec7-first p {
     font-size: 1.8ch;
+    font-family: "Open Sans", sans-serif;
 }
 
 .sec7-snd {
@@ -950,15 +986,17 @@ header {
 
 .subSnd1 p {
     font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
     width: 100%;
     display: flex;
     justify-content: flex-start;
 }
 
-.subSnd1 span {
-    font-size: 2.5ch;
+.subSnd1 i {
+    font-size: 2ch;
+    font-weight: bold;
     color: #ff7700;
-    transform: rotate(270deg);
+    /* transform: rotate(270deg); */
     transition: 0.5s ease-in-out;
     position: relative;
 }
@@ -1011,6 +1049,7 @@ header {
     padding: 5px 2ch 5px 2ch;
     border-radius: 3ch;
     font-size: 1.6ch;
+    font-family: "Google Sans", sans-serif;
     font-weight: 500;
 }
 
@@ -1018,11 +1057,13 @@ header {
     margin: 5px;
     font-weight: 500;
     font-size: 2.5ch;
+    font-family: "Google Sans", sans-serif;
 }
 
 .section8 p {
     width: 90%;
     text-align: center;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.6ch;
 }
 
@@ -1076,6 +1117,7 @@ header {
 }
 
 .sec8-blog1 h1 {
+    font-family: "Google Sans", sans-serif;
     font-size: 2.3ch;
 }
 
@@ -1083,6 +1125,7 @@ header {
     background-color: transparent;
     color: black;
     padding-left: 5px;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.8ch;
     font-weight: 500;
 }
@@ -1098,12 +1141,14 @@ header {
 }
 
 .sec8-blog2 h1 {
+    font-family: "Open Sans", sans-serif;
     font-size: 2.3ch;
 }
 
 .sec8-blog2 p {
     text-align: left;
-    font-size: 1.8ch;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.7ch;
     margin-top: 1.5ch;
     margin-bottom: 1.5ch;
 }
@@ -1130,6 +1175,7 @@ header {
     padding: 5px 2ch 5px 2ch;
     border-radius: 3ch;
     font-size: 1.8ch;
+    font-family: "Google Sans", sans-serif;
     font-weight: 500;
 }
 
@@ -1200,12 +1246,13 @@ header {
 }
 
 .sec10-li {
-    width: 100%;
+    width: 95%;
     justify-content: space-evenly;
 }
 
 .sec10-li h2 {
     letter-spacing: 0.5px;
+    font-family: "Google Sans", sans-serif;
     font-size: 3ch;
     font-weight: 500;
 }
@@ -1216,7 +1263,8 @@ header {
 
 .footer-text {
     text-align: justify;
-    font-size: 1.8ch;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6ch;
     font-weight: 360;
 }
 
@@ -1244,13 +1292,22 @@ header {
 
 .sec10-links h4 {
     margin-top: 1.5ch;
-    font-size: 2.5ch;
+    font-size: 2ch;
+    font-family: "Google Sans", sans-serif;
     font-weight: 400;
 }
 
 .sec10-links a {
     color: rgb(73, 70, 70);
     text-decoration: none;
+    font-size: 1.5ch;
+    font-family: "Open Sans", sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+.sec10-links span {
+    font-size: 1.5ch;
+    font-family: "Open Sans", sans-serif;
     transition: 0.3s ease-in-out;
 }
 
@@ -1269,8 +1326,11 @@ header {
     display: flex;
     margin-top: 5ch;
     font-size: 1.5ch;
+    font-family: "Open Sans", sans-serif;
 }
 
 .copyright b {
     font-weight: 700;
+    padding-left: 0.4ch;
+    padding-right: 0.4ch;
 }
