@@ -48,11 +48,11 @@
     position: absolute;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.4);
-    top: 40%;
+    top: 41%;
 }
 
 .about-content h1 {
-    font-size: 4ch;
+    font-size: 4.5ch;
     font-family: "Google Sans", sans-serif;
     color: #fff;
 }
