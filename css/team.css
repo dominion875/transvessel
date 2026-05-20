@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.navMenu-4 {
+    padding: 5px;
+    background-color: #ff7700;
+    color: #ffff;
+}
+
+.navMenu-1, .navMenu-2, .navMenu-3, .navMenu-5, .navMenu-6 {
+    color: black;
+}

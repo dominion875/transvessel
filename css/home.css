@@ -27,6 +27,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 
 .clBcg {
@@ -89,7 +90,7 @@ header {
     align-items: center;
 }
 
-.toggle i {
+#menuIcon {
     cursor: pointer;
     color: white;
     font-size: 3ch;
@@ -131,7 +132,7 @@ header {
     align-items: center;
     justify-content: center;
     font-family: "Google Sans", sans-serif;
-    font-size: 2.5ch;
+    font-size: 2ch;
     text-decoration: none;
 }
 
