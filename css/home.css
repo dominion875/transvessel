@@ -785,6 +785,7 @@ header {
     /* background-color: rgba(255, 255, 255, 0.365); */
     background-color: #1F3042;
     font-size: 1.3ch;
+    font-family: "Open Sans", sans-serif;
 }
 
 .blurButt1 {
@@ -798,6 +799,7 @@ header {
     /* background-color: rgba(255, 255, 255, 0.365); */
     background-color: #ff7700;
     font-size: 1.3ch;
+    font-family: "Open Sans", sans-serif;
 }
 
 .section5 {
