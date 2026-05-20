@@ -1225,7 +1225,9 @@ header {
 }
 
 .section10 {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-color: #1F3042;
+    color: white;
     margin-top: 5ch;
     width: 100%;
     height: auto;
@@ -1276,8 +1278,9 @@ header {
     width: 80%;
     display: flex;
     padding-top: 5px;
+    color: #ffff;
     gap: 2ch;
-    font-size: 2.5ch;
+    font-size: 2ch;
 }
 
 .footer-icons i {
@@ -1302,11 +1305,18 @@ header {
 }
 
 .sec10-links a {
-    color: rgb(73, 70, 70);
+    color: #fff;
+    /* color: rgb(73, 70, 70); */
     text-decoration: none;
     font-size: 1.5ch;
     font-family: "Open Sans", sans-serif;
     transition: 0.3s ease-in-out;
+}
+
+.sec10-links i {
+    color: #ff7700;
+    font-size: 2.5ch;
+    margin-right: 1ch;
 }
 
 .sec10-links span {
@@ -1334,6 +1344,7 @@ header {
 }
 
 .copyright b {
+    color: #ff7700;
     font-weight: 700;
     padding-left: 0.4ch;
     padding-right: 0.4ch;
