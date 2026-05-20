@@ -1320,7 +1320,7 @@ header {
 }
 
 .sec10-links span {
-    font-size: 1.5ch;
+    font-size: 1.3ch;
     font-family: "Open Sans", sans-serif;
     transition: 0.3s ease-in-out;
 }
@@ -1339,13 +1339,17 @@ header {
     justify-content: center;
     display: flex;
     margin-top: 5ch;
-    font-size: 1.5ch;
+    font-size: 1.3ch;
     font-family: "Open Sans", sans-serif;
 }
 
 .copyright b {
-    color: #ff7700;
+    color: #ffff;
     font-weight: 700;
     padding-left: 0.4ch;
     padding-right: 0.4ch;
+}
+
+.copyright b span {
+    color: #ff7700;
 }
