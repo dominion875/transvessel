@@ -615,6 +615,11 @@ header {
 }
 
 .maritime-Bcg:hover .blurButt {
+    transform: translateY(500%);
+}
+
+.maritime-Bcg:hover .blurButt1 {
+    transform: translateY(0%);
     background-color: #ff7700;
 }
 
@@ -655,6 +660,11 @@ header {
 }
 
 .land-Bcg:hover .blurButt {
+    transform: translateY(500%);
+}
+
+.land-Bcg:hover .blurButt1 {
+    transform: translateY(0%);
     background-color: #ff7700;
 }
 
@@ -695,6 +705,11 @@ header {
 }
 
 .train-Bcg:hover .blurButt {
+    transform: translateY(500%);
+}
+
+.train-Bcg:hover .blurButt1 {
+    transform: translateY(0%);
     background-color: #ff7700;
 }
 
@@ -734,6 +749,11 @@ header {
 }
 
 .air-Bcg:hover .blurButt {
+    transform: translateY(500%);
+}
+
+.air-Bcg:hover .blurButt1 {
+    transform: translateY(0%);
     background-color: #ff7700;
 }
 
@@ -756,14 +776,28 @@ header {
 }
 
 .blurButt {
-    transition: 1s ease-in;
     margin-top: 2ch;
-    clip-path: circle(50% at 50% 50%);
+    /* clip-path: circle(50% at 50% 50%); */
     padding: 0.5ch 1.3ch;
     color: white;
     border: none;
-    background-color: rgba(255, 255, 255, 0.365);
-    font-size: 2ch;
+    border-radius: 3px;
+    /* background-color: rgba(255, 255, 255, 0.365); */
+    background-color: #1F3042;
+    font-size: 1.3ch;
+}
+
+.blurButt1 {
+    margin-top: 2ch;
+    /* clip-path: circle(50% at 50% 50%); */
+    padding: 0.5ch 1.3ch;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transform: translateY(500%);
+    /* background-color: rgba(255, 255, 255, 0.365); */
+    background-color: #ff7700;
+    font-size: 1.3ch;
 }
 
 .section5 {
@@ -1306,7 +1340,6 @@ header {
 
 .sec10-links a {
     color: #fff;
-    /* color: rgb(73, 70, 70); */
     text-decoration: none;
     font-size: 1.3ch;
     font-family: "Open Sans", sans-serif;
@@ -1326,7 +1359,6 @@ header {
 }
 
 .sec10-links a:hover {
-    color: #ff7700;
     cursor: pointer;
 }
 
