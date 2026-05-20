@@ -34,7 +34,7 @@
 
 .about-hero-section img {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     object-fit: cover;
 }
 
@@ -46,9 +46,11 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    transform: translateY(-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     background: rgba(0, 0, 0, 0.4);
-    top: 41%;
 }
 
 .about-content h1 {
