@@ -11,6 +11,7 @@
 }
 
 .about-container {
+    margin-bottom: 5ch;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -94,8 +95,42 @@
 }
 
 .about-sec1-info img {
-    width: 90%;
+    width: 95%;
     height: auto;
     border-radius: 1ch;
     object-fit: cover;
+}
+
+.about-sec1-text {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-sec1-text h1 {
+    margin-bottom: 0.5ch;
+    font-size: 3ch;
+    font-family: "Google Sans", sans-serif;
+}
+
+.about-sec1-text hr {
+    width: 3ch;
+    height: 2px;
+    background-color: #ff7700;
+    border: none;
+}
+
+.about-sec1-text h3 {
+    margin-top: 2ch;
+    margin-bottom: 1ch;
+    font-size: 1.8ch;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about-sec1-text p {
+    font-size: 1.3ch;
+    font-family: "Open Sans", sans-serif;
 }
