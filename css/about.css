@@ -316,7 +316,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1ch;
+    gap: 0.8ch;
     margin-top: 0.5ch;
 }
 
@@ -330,7 +330,8 @@
 }
 
 .about-sec3-div3 p {
-    color: #a29999;
+    /* color: #a29999; */
+    color: #3a4a5b9a;
     font-size: 1.6ch;
     font-family: "Open Sans", sans-serif;
 }
