@@ -259,3 +259,78 @@
     font-size: 1.6ch;
     font-family: "Open Sans", sans-serif;
 }
+
+.about-sec3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3ch;
+}
+
+.about-sec3-divs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-sec3-divs h1 {
+    font-size: 3ch;
+    font-family: "Google Sans", sans-serif;
+}
+
+.about-sec3-div {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1ch;
+}
+
+.about-sec3-div1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5ch;
+}
+
+.about-sec3-div1 i {
+    font-size: 2ch;
+    color: #ff7700;
+}
+
+.about-sec3-div2 p {
+    margin-top: 0.5ch;
+    font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about-sec3-div3-head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1ch;
+    margin-top: 0.5ch;
+}
+
+.about-sec3-div3-head h3 {
+    font-size: 2ch;
+    font-family: "Google Sans", sans-serif;
+}
+
+.about-sec3-div3-head i {
+    color: blue;
+}
+
+.about-sec3-div3 p {
+    color: #a29999;
+    font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
+}
