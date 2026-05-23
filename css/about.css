@@ -419,7 +419,7 @@
 
 .about-sec4-div img {
     width: 95%;
-    height: 65vh;
+    /* height: 65vh; */
     object-fit: cover;
     border-top-left-radius: 1ch;
     border-top-right-radius: 1ch;
