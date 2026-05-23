@@ -284,6 +284,13 @@
     font-family: "Google Sans", sans-serif;
 }
 
+.about-sec3-divs hr {
+    width: 8ch;
+    height: 2px;
+    border: none;
+    background-color: #ff7700;
+}
+
 .about-sec3-div {
     width: 80%;
     height: auto;
@@ -344,8 +351,122 @@
 }
 
 .about-sec3-div3 p {
-    /* color: #a29999; */
     color: #1f3042b8;
     font-size: 1.6ch;
     font-family: "Open Sans", sans-serif;
+}
+
+.about-sec4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-sec4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3ch;
+}
+
+.about-sec4-divs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-sec4-divs h1 {
+    font-size: 3ch;
+    font-family: "Google Sans", sans-serif;
+}
+
+.about-sec4-divs h1 span {
+    color: #ff7700;
+}
+
+.about-sec4-divs hr {
+    width: 6ch;
+    height: 2px;
+    border: none;
+    background-color: #ff7700;
+    margin-top: 0.5ch;
+}
+
+.about-sec4-divs h3 {
+    text-align: center;
+    margin-top: 1ch;
+    font-weight: 500;
+    font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about-sec4-div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1ch;
+    /* border: 1px solid #ff7700; */
+    /* border-radius: 1ch; */
+}
+
+.about-sec4-div img {
+    width: 95%;
+    height: 65vh;
+    object-fit: cover;
+    border-top-left-radius: 1ch;
+    border-top-right-radius: 1ch;
+}
+
+.about-sec4-text {
+    width: 95%;
+    padding: 2ch;
+    color: #fff;
+    background-color: #1F3042;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom-left-radius: 1ch;
+    border-bottom-right-radius: 1ch;
+}
+
+.about-sec4-text p {
+    color: #ff7700;
+    font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about-sec4-text h2 {
+    font-weight: 500;
+    font-size: 3ch;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about-sec4-icon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* gap: 2ch; */
+    margin-top: 1ch;
+}
+
+.about-sec4-icon i {
+    border-radius: 5px;
+    padding: 1ch;
+}
+
+.about-sec4-icon i:hover {
+    color: #ff7700;
+    clip-path: circle(40% at 50% 50%);
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 1ch;
 }

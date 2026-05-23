@@ -1223,15 +1223,11 @@ header {
 .sec9-div {
     width: 95%;
     display: grid;
-    grid-template-columns: repeat(6, 20%);
+    grid-template-columns: repeat(8, 20%);
     gap: 2ch;
     margin-top: 2ch;
     overflow-x: auto;
     position: relative;
-}
-
-.sec9-div img {
-    /* animation: scroll 0.5s linear infinite; */
 }
 
 .sec9-div::-webkit-scrollbar {
@@ -1252,13 +1248,20 @@ header {
 }
 
 .sec9-div img {
-    width: 8ch;
+    width: 9ch;
     object-fit: contain;
     filter: grayscale(100%);
+    padding: 5px;
+    margin-top: 2ch;
+    margin-bottom: 1ch;
+    margin-left: 1ch;
+    margin-right: 2ch;
+    border-radius: 5px;
 }
 
 .sec9-div img:hover {
     filter: grayscale(0%);
+    box-shadow: 1px 1px 5px #3a4a5b9a;
 }
 
 .section10 {
