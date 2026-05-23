@@ -298,6 +298,7 @@
     display: flex;
     flex-direction: row;
     gap: 0.5ch;
+    margin-top: 1ch;
 }
 
 .about-sec3-div1 i {
@@ -311,6 +312,15 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.about-sec3-div3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8ch;
+    margin-top: 0.5ch;
+}
+
 .about-sec3-div3-head {
     width: 100%;
     display: flex;
@@ -318,6 +328,10 @@
     align-items: center;
     gap: 0.8ch;
     margin-top: 0.5ch;
+}
+
+.about-sec3-div3 img {
+    width: 5ch;
 }
 
 .about-sec3-div3-head h3 {
