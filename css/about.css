@@ -399,6 +399,7 @@
 }
 
 .about-sec4-divs h3 {
+    width: 90%;
     text-align: center;
     margin-top: 1ch;
     font-weight: 500;
@@ -406,20 +407,25 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.about-sec4-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 80%);
+    justify-content: center;
+    align-items: center;
+    margin-top: 1ch;
+}
+
 .about-sec4-div {
-    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 1ch;
-    /* border: 1px solid #ff7700; */
-    /* border-radius: 1ch; */
 }
 
 .about-sec4-div img {
     width: 95%;
-    /* height: 65vh; */
     object-fit: cover;
     border-top-left-radius: 1ch;
     border-top-right-radius: 1ch;
@@ -446,7 +452,7 @@
 
 .about-sec4-text h2 {
     font-weight: 500;
-    font-size: 3ch;
+    font-size: 2.5ch;
     font-family: "Open Sans", sans-serif;
 }
 
