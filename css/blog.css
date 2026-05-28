@@ -6,12 +6,313 @@
     user-select: none;
 }
 
+.blog-container {
+    width: 100%;
+    height: auto;
+}
+
 .navMenu-3 {
     padding: 5px;
     background-color: #ff7700;
     color: #ffff;
 }
 
-.navMenu-1, .navMenu-2, .navMenu-4, .navMenu-5, .navMenu-6 {
+.navMenu-1, .navMenu-2  , .navMenu-4, .navMenu-5, .navMenu-6 {
     color: black;
+}
+
+.blog-hero-section {
+    width: 100%;
+    height: auto;
+    /* position: absolute; */
+}
+
+.blog-hero-section img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.blog-content {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.blog-content h1 {
+    font-size: 4.5ch;
+    font-family: "Google Sans", sans-serif;
+    color: #fff;
+}
+
+.blog-content h3 {
+    font-size: 2ch;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+
+.blog-content span {
+    color: #ff7700;
+}
+
+.blog-sec1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5ch;
+}
+
+.blog-sec1-divs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-sec1-div1 {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.blog-sec1-div1 img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 1ch;
+}
+
+.blog-sec1-div1-text {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* bottom: 100%; */
+    /* background-color: #1f304249; */
+    background: linear-gradient(to top, #1f3042, transparent);
+    top: 100%;
+    padding: 2ch;
+    border-radius: 1ch;
+    position: absolute;
+}
+
+.blog-sec1-div1-text h1 {
+    width: 8ch;
+    display: flex;
+    justify-content: center;
+    padding: 0.5ch;
+    border-radius: 10ch;
+    border: none;
+    background-color: #ff7700;
+    font-size: 1.5ch;
+    font-weight: 500;
+    font-family: "Google Sans", sans-serif;
+    color: #ffff;
+}
+
+.blog-sec1-div1-text h2 {
+    font-size: 2.3ch;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.blog-sec1-div1-text p {
+    margin-top: 2ch;
+    font-size: 1.5ch;
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+}
+
+.blog-sec1-div1-text h3 {
+    margin-top: 2ch;
+    font-size: 1.5ch;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    color: #ff7700;
+}
+
+.blog-sec1-div1-text h3 span {
+    color: #ffff;
+}
+
+.blog-sec1-div1-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2ch;
+}
+
+.blog-sec1-div1-row1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2ch;
+}
+
+.blog-sec1-div1-row1 img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-top-left-radius: 1ch;
+    border-top-right-radius: 1ch;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.blog-sec1-div1-row1-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2ch;
+}
+
+.row1-text {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1ch;
+}
+
+.row1-text h1 {
+    width: 8ch;
+    display: flex;
+    justify-content: center;
+    padding: 0.5ch;
+    border-radius: 10ch;
+    border: none;
+    background-color: #ff7700;
+    font-size: 1.5ch;
+    font-weight: 500;
+    font-family: "Google Sans", sans-serif;
+    color: #ffff;
+}
+
+.row1-text span {
+    font-size: 1.5ch;
+    font-family: "Open Sans", sans-serif;
+    color: #1f3042;
+}
+
+.blog-sec1-div1-row1-text h2 {
+    margin-top: 1ch;
+    font-size: 2ch;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-sec1-div1-row1-text h3 {
+    margin-top: 1ch;
+    font-size: 1.5ch;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    color: #ff7700;
+}
+
+.blog-sec1-div1-row1-text h3 span {
+    color: #1f3042;
+}
+
+.blog-sec1-div2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2ch;
+    margin-bottom: 2ch;
+}
+
+.blog-sec1-div2-header {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2ch;
+}
+
+.blog-sec1-div2-header h1 {
+    background-color: #ff7700;
+    padding: 1ch;
+    border-radius: 3ch;
+    color: #ffff;
+    font-size: 1.6ch;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-sec1-div2-news {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 3ch;
+    padding-bottom: 2ch;
+    border-bottom: 1px solid #1f30425e;
+}
+
+.blog-sec1-div2-news img {
+    width: 35%;
+    height: 25vh;
+    border-radius: 1ch;
+    object-fit: cover;
+}
+
+.blog-sec1-div2-text {
+    margin-left: 1.5ch;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-sec1-div2-text h1 {
+    padding: 1ch;
+    margin-bottom: 1ch;
+    border-radius: 3ch;
+    width: 10ch;
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    background-color: #ff7700;
+    font-size: 1.6ch;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-sec1-div2-text p {
+    font-size: 2ch;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-sec1-div2-text h3 {
+    margin-top: 1.5ch;
+    font-size: 1.6ch;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
 }
