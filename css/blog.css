@@ -315,7 +315,7 @@
 }
 
 .tab-btn.active {
-    background: green;
+    background: #ff7700;
     color: white;
 }
 
