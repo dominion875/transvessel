@@ -249,54 +249,10 @@
 .blog-sec1-div2-header {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(2, 35%);
+    grid-template-columns: repeat(2, 38%);
     justify-content: flex-start;
     gap: 2ch;
 }
-
-/* .news-box {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial;
-} */
-
-/* Tabs */
-/* .tabs {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.tab-btn {
-    padding: 10px 15px;
-    border: none;
-    background: #eee;
-    cursor: pointer;
-    border-radius: 20px;
-    transition: 0.3s;
-}
-
-.tab-btn.active {
-    background: green;
-    color: white;
-} */
-
-/* Content Animation */
-/* .tab-content {
-    opacity: 0;
-    transform: translateY(15px);
-    transition: all 0.4s ease;
-    display: flex;
-}
-
-.tab-content.active {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
-}  */
 
 .tab-btn {
     width: auto;
@@ -321,7 +277,7 @@
 
 .blog-sec1-div2-wrapper {
     position: relative;
-    height: 100vh;
+    height: 180vh;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -406,5 +362,93 @@
     margin-top: 1.5ch;
     font-size: 1.6ch;
     font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-sec2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-sec2-divs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-sec2-div {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 10px #1f304241;
+    margin-bottom: 2ch;
+    border-radius: 1ch;
+}
+
+.blog-sec2-div img {
+    width: 100%;
+    border-top-left-radius: 1ch;
+    border-top-right-radius: 1ch;
+    object-fit: cover;
+}
+
+.blog-sec2-text {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2ch;
+    margin-bottom: 2ch;
+}
+
+.blog-sec2-text h1 {
+    font-size: 2ch;
+    color: #1f30428d;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-sec2-text p {
+    font-size: 2.5ch;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-sec2-img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2ch;
+}
+
+.blog-sec2-img img {
+    width: 6ch;
+    object-fit: cover;
+}
+
+.blog-sec2-date {
+    margin-left: 1ch;
+}
+
+.blog-sec2-date h3 {
+    font-weight: 500;
+    font-size: 2ch;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-sec2-date h4 {
+    color: #1f30428d;
+    font-weight: 500;
+    font-size: 2ch;
     font-family: "Open Sans", sans-serif;
 }
