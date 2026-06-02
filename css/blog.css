@@ -243,7 +243,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 2ch;
-    margin-bottom: 2ch;
+    /* margin-bottom: 2ch; */
 }
 
 .blog-sec1-div2-header {
@@ -276,9 +276,9 @@
 }
 
 .blog-sec1-div2-wrapper {
-    position: relative;
-    height: 150vh;
+    /* position: relative; */
     width: 90%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -302,7 +302,6 @@
     transform: translateY(10px);
     transition: all .4s ease;
     width: 90%;
-    /* height: -90vh; */
     display: none;
     flex-direction: column;
     justify-content: flex-start;

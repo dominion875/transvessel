@@ -1,5 +1,16 @@
 const buttons = document.querySelectorAll(".tab-btn");
 const contents = document.querySelectorAll(".blog-sec1-div2-main");
+const tabsContent = document.querySelector(".blog-sec1-div2-wrapper");
+
+function setHeight() {
+    const active = document.querySelector(".blog-sec1-div2-main.active");
+
+    tabsContent.style.height =
+        active.scrollHeight + "px";
+}
+
+setHeight();
+
 
 buttons.forEach(button => {
 
