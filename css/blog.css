@@ -377,14 +377,14 @@
 .blog-sec2-divs {
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 90%);
     justify-content: center;
     align-items: center;
 }
 
 .blog-sec2-div {
-    width: 90%;
+    /* width: 90%; */
     height: auto;
     display: flex;
     flex-direction: column;
@@ -412,14 +412,14 @@
 }
 
 .blog-sec2-text h1 {
-    font-size: 2ch;
+    font-size: 1.6ch;
     color: #1f30428d;
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
 }
 
 .blog-sec2-text p {
-    font-size: 2.5ch;
+    font-size: 2ch;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -432,7 +432,7 @@
 }
 
 .blog-sec2-img img {
-    width: 6ch;
+    width: 5ch;
     object-fit: cover;
 }
 
@@ -449,6 +449,51 @@
 .blog-sec2-date h4 {
     color: #1f30428d;
     font-weight: 500;
+    font-size: 1.6ch;
+    font-family: "Open Sans", sans-serif;
+}
+
+.blog-sec3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-sec3-divs {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 18%);
+    align-items: center;
+    justify-content: center;
+    gap: 1ch;
+    margin-bottom: 2ch;
+}
+
+.blog-sec3-divs i {
+    padding: 1.2ch 0.5ch;
+    text-align: center;
+    border-radius: 1ch;
+    box-shadow: 0px 3px 5px #1f30423e;
+}
+
+.span-dot {
+    font-size: 2ch;
+    padding: 1ch 0.5ch;
+    text-align: center;
+}
+
+.span.active {
+    color: white;
+    background-color: #ff7700;
+}
+
+.span {
     font-size: 2ch;
     font-family: "Open Sans", sans-serif;
+    padding: 1ch 0.5ch;
+    text-align: center;
+    border-radius: 1ch;
+    box-shadow: 0px 3px 5px #1f30423e;
 }
