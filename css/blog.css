@@ -176,7 +176,7 @@
 
 .blog-sec1-div1-row1 img {
     width: 100%;
-    height: 50vh;
+    height: auto;
     object-fit: cover;
     border-top-left-radius: 1ch;
     border-top-right-radius: 1ch;
@@ -241,12 +241,12 @@
 
 .blog-sec1-div2 {
     width: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 2ch;
-    /* margin-bottom: 2ch; */
 }
 
 .blog-sec1-div2-header {
@@ -370,7 +370,7 @@
 
 .blog-sec2 {
     width: 100%;
-    height: auto;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
