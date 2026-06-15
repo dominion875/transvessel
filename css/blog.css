@@ -172,6 +172,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 2ch;
+    margin-bottom: 1ch;
 }
 
 .blog-sec1-div1-row1 img {
@@ -323,7 +324,7 @@
 
 .blog-sec1-div2-news img {
     width: 30%;
-    height: 13vh;
+    height: 10vh;
     border-radius: 1ch;
     object-fit: cover;
 }
@@ -398,8 +399,9 @@
     border-radius: 1ch;
 }
 
-.blog-sec2-div img {
+.sec2-img {
     width: 100%;
+    height: 35vh;
     border-top-left-radius: 1ch;
     border-top-right-radius: 1ch;
     object-fit: cover;
