@@ -836,7 +836,7 @@ header {
 .sec5-div {
     position: relative;
     overflow-x: auto;
-    width: 98%;
+    width: 97%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(6, 70%);
@@ -879,7 +879,7 @@ header {
     width: 13ch;
     display: flex;
     justify-content: center;
-    font-size: 1ch;
+    font-size: 1.5ch;
     font-family: "Google Sans", sans-serif;
     font-weight: 500;
     background-color: #ff7700;
@@ -922,7 +922,7 @@ header {
 
 .sec5-text p {
     font-family: "Open Sans", sans-serif;
-    font-size: 1.5ch;
+    font-size: 1.8ch;
 }
 
 .sec5-text:hover .sec5-arrow {
@@ -1004,7 +1004,6 @@ header {
 
 .sec7-snd {
     width: 100%;
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1052,7 +1051,11 @@ header {
 }
 
 .sec7-subSnd label {
-    padding: 1ch 3ch;
+    border-top-left-radius: 1ch;
+    border-bottom-left-radius: 1ch;
+    border-left: 2px solid #ff7700;
+    margin: 1ch 3ch;
+    padding: 1px 5px;
     color: #fff;
     font-size: 1.5ch;
     display: none;
