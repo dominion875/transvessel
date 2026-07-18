@@ -840,7 +840,7 @@ header {
     height: auto;
     display: grid;
     grid-template-columns: repeat(6, 70%);
-    gap: 2.5ch;
+    gap: 3.5ch;
 }
 
 .sec5-div::-webkit-scrollbar {
