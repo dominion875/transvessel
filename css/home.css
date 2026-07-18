@@ -1320,7 +1320,7 @@ header {
 .sec10-li h2 {
     letter-spacing: 0.5px;
     font-family: "Google Sans", sans-serif;
-    font-size: 3ch;
+    font-size: 2.5ch;
     font-weight: 500;
 }
 
@@ -1329,10 +1329,11 @@ header {
 }
 
 .footer-text {
-    text-align: justify;
+    text-align: left;
     font-family: "Open Sans", sans-serif;
     font-size: 1.6ch;
     font-weight: 360;
+    padding-bottom: 1ch;
 }
 
 .footer-icons {
