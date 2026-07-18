@@ -163,19 +163,20 @@ form {
 }
 
 form input {
+    /* font-family: "Open Sans", sans-serif; */
     width: 100%;
     padding: 1ch;
     font-size: 1.8ch;
 }
 
 form textarea {
+    font-family: "Open Sans", sans-serif;
     max-width: 100%;
     min-width: 100%;
     max-height: 35vh;
     min-height: 30vh;
     padding: 1ch;
-    font-size: 2ch;
-    text-transform: capitalize;
+    font-size: 1.8ch;
 }
 
 form button {
