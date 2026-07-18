@@ -1236,48 +1236,53 @@ header {
     font-weight: 500;
 }
 
-.sec9-div {
-    width: 95%;
-    display: grid;
-    grid-template-columns: repeat(8, 20%);
-    gap: 2ch;
-    margin-top: 2ch;
+.sec9-scroll {
+    width: 100%;
     overflow-x: auto;
-    position: relative;
+    display: flex;
+    gap: 3ch;
 }
 
-.sec9-div::-webkit-scrollbar {
-    width: 0;
+.sec9-div {
+    gap: 3ch;
+    display: flex;
+    width: max-content;
+    animation: scroll 10s linear infinite;
 }
 
-.section9:hover .sec9-div img {
+
+.sec9-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.sec9-scroll:hover .sec9-div {
     animation-play-state: paused;
 }
 
 @keyframes scroll {
-    0% {
+    from {
         transform: translateX(0);
     }
-    100% {
-        transform: translateX(-80%);
+    to {
+        transform: translateX(-90%);
+        /* translate: -50%; */
     }
 }
 
 .sec9-div img {
-    width: 9ch;
+    width: 12ch;
     object-fit: contain;
     filter: grayscale(100%);
-    padding: 5px;
+    padding: 10px;
     margin-top: 2ch;
     margin-bottom: 1ch;
-    margin-left: 1ch;
-    margin-right: 2ch;
     border-radius: 5px;
 }
 
 .sec9-div img:hover {
+    transform: scale(150%);
     filter: grayscale(0%);
-    box-shadow: 1px 1px 5px #3a4a5b9a;
+    /* box-shadow: 1px 1px 5px #3a4a5b9a; */
 }
 
 .section10 {
