@@ -812,8 +812,7 @@ header {
     height: auto;
     overflow: hidden;
     padding-top: 1ch;
-    padding-left: 4ch;
-    /* background-color: red; */
+    padding-left: 2ch;
 }
 
 .section5 label {
@@ -837,11 +836,11 @@ header {
 .sec5-div {
     position: relative;
     overflow-x: auto;
-    width: 100%;
+    width: 98%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(6, 70%);
-    gap: 8ch;
+    gap: 1ch;
 }
 
 .sec5-div::-webkit-scrollbar {
@@ -854,8 +853,8 @@ header {
 }
 
 .sec5-card img {
-    max-width: 30ch;
-    height: 45vh;
+    max-width: 28ch;
+    height: 40vh;
     object-fit: cover;
     border-radius: 1ch;
 }
@@ -864,8 +863,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 30ch;
-    height: 45vh;
+    width: 28ch;
+    height: 40vh;
     transform: translate(0%, -100%);
     color: #fff;
     padding-left: 4ch;
@@ -880,7 +879,7 @@ header {
     width: 13ch;
     display: flex;
     justify-content: center;
-    font-size: 1.6ch;
+    font-size: 1ch;
     font-family: "Google Sans", sans-serif;
     font-weight: 500;
     background-color: #ff7700;
@@ -923,7 +922,7 @@ header {
 
 .sec5-text p {
     font-family: "Open Sans", sans-serif;
-    font-size: 2ch;
+    font-size: 1.5ch;
 }
 
 .sec5-text:hover .sec5-arrow {
@@ -1005,31 +1004,36 @@ header {
 
 .sec7-snd {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     margin-top: 2ch;
 }
 
 .sec7-subSnd {
+    width: 40ch;
     height: auto;
     margin-bottom: 1.5ch;
+    background-color: #1F3042;
+    transition: 0.5s ease;
+    border-radius: 1ch;
 }
 
 .subSnd1 {
-    width: 38ch;
+    width: 40ch;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    /* background-color: rgb(6, 115, 115); */
-    background-color: #1F3042;
-    border-radius: 5ch;
     padding: 1ch 2ch;
     color: #fff;
     overflow: hidden;
 }
 
 .subSnd1 p {
-    font-size: 1.6ch;
+    font-size: 1ch;
     font-family: "Open Sans", sans-serif;
     width: 100%;
     display: flex;
@@ -1046,14 +1050,16 @@ header {
 }
 
 .sec7-subSnd label {
-    font-size: 2ch;
+    padding: 1ch 3ch;
+    color: #fff;
+    font-size: 1ch;
     display: none;
-    transition: 0.5s ease-in-out;
+    transition: 5s ease;
 }
 
 .sec7-subSnd:hover label {
     display: block;
-    transition: 0.5s ease-in-out;
+    transition: 5s ease;
 }
 
 .subSnd1:hover span {
@@ -1126,7 +1132,7 @@ header {
     align-items: center;
     box-shadow: 2px 2px 8px black;
     border-radius: 1ch;
-    height: auto;
+    height: 65vh;
     overflow: hidden;
 }
 
