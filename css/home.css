@@ -1052,7 +1052,9 @@ header {
 
 .sec7-subSnd label {
     border-top-left-radius: 1ch;
+    border-top-right-radius: 1ch;
     border-bottom-left-radius: 1ch;
+    border-top: 2px solid #ff7700;
     border-left: 2px solid #ff7700;
     margin: 1ch 3ch;
     padding: 1px 5px;
