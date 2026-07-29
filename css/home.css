@@ -19,6 +19,7 @@ html {
 }
 
 .container {
+    overflow-x: hidden;
     width: 100%;
     height: auto;
     display: flex;
@@ -315,6 +316,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .section1 label {
@@ -1048,6 +1050,7 @@ header {
     /* transform: rotate(270deg); */
     transition: 0.5s ease-in-out;
     position: relative;
+    cursor: pointer;
 }
 
 .sec7-subSnd label {
@@ -1063,10 +1066,10 @@ header {
     font-family: "Open Sans", sans-serif;
 }
 
-.sec7-subSnd:hover label {
+/* .sec7-subSnd:hover label {
     display: block;
     transition: 0.5s ease;
-}
+} */
 
 .subSnd1:hover span {
     transition: 0.5s ease-in-out;
