@@ -8,6 +8,7 @@
     box-sizing: border-box;
     -moz-user-select: none;
     user-select: none;
+    overflow-x: hidden;
 }
 
 .about-container {
@@ -203,19 +204,11 @@
 
 .about-sec2-divs {
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
     justify-content: center;
     align-items: center;
     margin-top: 3ch;
-}
-
-.about-sec2-divs1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .about-sec2-sub-divs {
@@ -276,12 +269,12 @@
     align-items: center;
 }
 
-.about-sec3-divs h1 {
+.about-sec3 h1 {
     font-size: 3ch;
     font-family: "Google Sans", sans-serif;
 }
 
-.about-sec3-divs hr {
+.about-sec3 hr {
     width: 8ch;
     height: 2px;
     border: none;
@@ -545,6 +538,7 @@
     border: 1px solid #1f30422f;
     border-radius: 1.5ch;
     padding: 3ch;
+    margin-bottom: 1ch;
     transition: 0.1s ease-in-out;
 }
 
