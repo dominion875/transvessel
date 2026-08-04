@@ -325,7 +325,7 @@
 
 .blog-sec1-div2-news img {
     width: 30%;
-    height: 10vh;
+    /* height: 10vh; */
     border-radius: 1ch;
     object-fit: cover;
 }
